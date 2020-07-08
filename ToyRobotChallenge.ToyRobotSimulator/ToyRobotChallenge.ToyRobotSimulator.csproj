@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToyRobotChallenge.Parser\ToyRobotChallenge.Parser.csproj" />
+    <ProjectReference Include="..\ToyRobotChallenge.Processor\ToyRobotChallenge.Processor.csproj" />
+    <ProjectReference Include="..\ToyRobotChallenge.ToyRobotBoard\ToyRobotChallenge.ToyRobotBoard.csproj" />
+    <ProjectReference Include="..\ToyRobotChallenge.ToyRobot\ToyRobotChallenge.ToyRobot.csproj" />
+  </ItemGroup>
+
+</Project>
